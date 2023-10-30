@@ -88,6 +88,8 @@ See URL `https://docs.astral.sh/ruff/'."
   :verify (lambda (_) (flycheck-python-verify-module 'python-ruff "ruff"))
 
   :error-parser flycheck-python-ruff-parse
+  :error-explainer (lambda (err)
+                     `(url . ,(flycheck-error-id err)))
   :modes (python-mode python-ts-mode)
   :next-checkers ((warning . python-mypy)))
 
