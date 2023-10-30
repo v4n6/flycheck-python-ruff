@@ -52,8 +52,10 @@
                  :buffer buffer
                  :checker checker
                  :filename .filename
-                 :message (and (string-match (rx (*? nonl) eol) .message)
-                               (match-string 0 .message))
+                 :message (concat .code
+                                  ": "
+                                  (and (string-match (rx (*? nonl) eol) .message)
+                                       (match-string 0 .message)))
                  :level 'error
                  :id .url))))
 
