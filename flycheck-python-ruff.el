@@ -6,7 +6,7 @@
 ;; Keywords: convenience, tools, flycheck, python, ruff
 ;; URL: https://github.com/a/
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "25.1") (let-alist "1.0.4") (flycheck "0.22"))
+;; Package-Requires: ((emacs "25.1") (let-alist "1.0.4") (flycheck "0.25"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
