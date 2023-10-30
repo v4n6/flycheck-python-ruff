@@ -77,7 +77,6 @@ See URL `https://docs.astral.sh/ruff/'."
   :command ("python3"
             (eval (flycheck-python-module-args 'python-ruff "ruff"))
             "--output-format=json"
-            (config-file "--config=" flycheck-ruff-conffile concat)
             ;; Need `source-inplace' for relative imports (e.g. `from .foo
             ;; import bar')
             source-inplace)
