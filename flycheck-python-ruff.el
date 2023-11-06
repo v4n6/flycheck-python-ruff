@@ -1,11 +1,11 @@
-;;; flycheck-python-ruff.el --- Flycheck checker for python ruff linter  -*- lexical-binding: t; -*-
+;;; flycheck-python-ruff.el --- Flycheck checker for python ruff linter that supports error explanations  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2018  Sergey Morozov
 
-;; Author: Sergey Morozov
+;; Author: Sergey Morozov <nibbler@nibbler.dev>
 ;; Keywords: convenience, tools, flycheck, python, ruff
-;; URL: https://github.com/a/
-;; Version: 0.1.0
+;; URL: https://github.com/v4n6/flycheck-python-ruff
+;; Version: 0.0.5
 ;; Package-Requires: ((emacs "25.1") (let-alist "1.0.4") (flycheck "0.25"))
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -23,7 +23,7 @@
 
 ;;; Commentary:
 
-;; Flycheck checker for python ruff
+;; Flycheck checker for python ruff linter that supports error explanations.
 ;;
 ;; Usage:
 ;;
