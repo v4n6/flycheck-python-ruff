@@ -1,5 +1,5 @@
 # flycheck-python-ruff
-Flycheck checker for python ruff linter
+Flycheck checker for python ruff linter that supports error explanations.
 
 # Install
 ## MELPA
