@@ -1,4 +1,4 @@
-;;; flycheck-python-ruff.el --- Flycheck checker for python ruff linter that supports error explanations  -*- lexical-binding: t; -*-
+;;; flycheck-python-ruff.el --- Flycheck checker for python ruff linter -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2018  Sergey Morozov
 
